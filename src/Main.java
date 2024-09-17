@@ -78,7 +78,8 @@ public class Main {
 
             //Ex Desconto em Compra
             System.out.println("Digite o valor da compra:R$ ");
-            double desconto = o;
+            double valorCompra;
+            double desconto = 0;
             if (valorCompra > 100) {
                 desconto = valorCompra * 0.1;
             }
